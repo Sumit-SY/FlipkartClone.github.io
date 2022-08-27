@@ -1,0 +1,33 @@
+@media screen and (max-width: 1170px) {
+  /* body {
+    background-color: red;
+  } */
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin: 9px 0px;
+  }
+  .search {
+    margin: 0px 0px 7px;
+  }
+  .search img {
+    left: 29.4vw;
+  }
+  .login {
+    top: 134px;
+  }
+  .login-box {
+    position: absolute;
+    right: 85px;
+  }
+  .card-items img {
+    width: 139px;
+    height: 140px;
+  }
+  .lines{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0px 37px;
+  }
+}

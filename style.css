@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:wght@300&family=Playfair+Display:wght@400;500&family=Poppins:wght@100&family=Raleway:wght@200&family=Rubik+Marker+Hatch&display=swap");
+:root {
+  --margin-bg-color: rgb(42, 106, 224);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: var(--margin-bg-color);
+  font-family: "Lato", sans-serif;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 98px;
+  padding: 0px 20px;
+}
+nav ul {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-style: oblique;
+  color: black;
+}
+nav ul li a:hover {
+  color: aliceblue;
+  font-weight: bolder;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 18px;
+  margin: 0px 11px 0px 6px;
+  border: 1.5px solid black;
+  padding: 2px 7px;
+  font-family: "Lato", sans-serif;
+}
+.search img {
+  height: 22px;
+  width: 27px;
+  position: absolute;
+  left: 745px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.search button {
+  font-family: "Lato", sans-serif;
+}
+.login-box {
+  display: flex;
+  align-items: center;
+  height: 8px;
+  width: 60px;
+  background-color: white;
+  padding: 5px 0px 9px 17px;
+  margin: 18px 31px;
+  color: var(--margin-bg-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+.login {
+  position: absolute;
+  top: 17px;
+  right: 260px;
+  color: var(--margin-bg-color);
+  font-weight: bold;
+}
+.cart img {
+  height: 22px;
+  position: absolute;
+  top: 15px;
+  right: 77px;
+  cursor: pointer;
+}
+.cart p {
+  position: absolute;
+  top: 12px;
+  right: 36px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: oblique;
+  cursor: pointer;
+}
+.container {
+  min-height: calc(100vh - 50px - 10vh);
+}
+.slider {
+  margin: 10px 50px 0px 92px;
+  overflow: hidden;
+}
+.card {
+  max-width: 93vw;
+  margin: auto;
+  padding: 9px;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  overflow: scroll;
+  cursor: pointer;
+}
+.card-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 8px;
+}
+.lines {
+  width: 12vw;
+}
+footer {
+  background-color: var(--margin-bg-color);
+  color: black;
+  height: 10vh;
+  font-family: "Lato", sans-serif;
+}
