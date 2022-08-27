@@ -30,4 +30,8 @@
     flex-direction: column;
     padding: 0px 37px;
   }
+  .slider img{
+    width: 46vw;
+    height: 25vh;
+  }
 }
